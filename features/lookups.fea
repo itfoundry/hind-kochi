@@ -1,3 +1,7 @@
+# -------------------
+# BASIC SHAPING FORMS
+# -------------------
+
 # Akhand Ligatures
 # ----------------
 
@@ -208,6 +212,10 @@ lookup pstf_mlym {
 
 } pstf_mlym;
 
+
+# ----------------------------
+# MANDATORY PRESENTATION FORMS
+# ----------------------------
 
 # Above-base Substitution
 # -----------------------
