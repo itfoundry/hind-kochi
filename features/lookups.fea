@@ -7,7 +7,7 @@
 
 lookup akhn_chillu {
 
-  sub mlNA  mlVirama zerowidthjoiner mlRRA by mlNchillu_RRA; # for Windows and OS X.
+  # sub mlNA  mlVirama zerowidthjoiner mlRRA by mlNchillu_RRA; # Compatible to Nirmala UI but breaks character sequence <Nchillu, RRA>.
 
   sub mlKA  mlVirama zerowidthjoiner by mlKchillu;
   sub mlNNA mlVirama zerowidthjoiner by mlNNchillu;
@@ -79,6 +79,7 @@ lookup akhn_conjuncts {
   sub mlLLA mlVirama mlLLA by mlLL_LLA;
 
   sub mlNchillu mlVirama mlRRA by mlNchillu_RRA;
+  sub mlNA mlVirama mlRRA by mlNchillu_RRA; # Backup
 
 } akhn_conjuncts;
 
